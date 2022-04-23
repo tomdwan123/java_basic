@@ -15,7 +15,7 @@ public class Grade {
         this.name = name;
     }
 
-    public  Grade(Grade grade) {
+    public Grade(Grade grade) {
         this.code = grade.code;
         this.name  = grade.name;
     }

@@ -45,6 +45,10 @@ public class Student {
         return grade;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
